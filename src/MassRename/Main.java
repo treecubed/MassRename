@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Main {
 
 	public void start(){
-		JFrame frame = new JFrame("Mass Rename");
+		JFrame frame = new JFrame("MassRename");
 		
 		final JTextArea text1 = new JTextArea();
 		final JTextArea text2 = new JTextArea();
@@ -20,7 +20,7 @@ public class Main {
 		frame.getContentPane().add(
 				new JScrollPane (text2),
 				BorderLayout.EAST);
-		
+
 		frame.setSize(800, 600);
 		frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
