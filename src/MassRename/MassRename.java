@@ -1,6 +1,6 @@
 package MassRename;
 
-public class Main {
+public class MassRename {
 
 	ContentFrame cf = new ContentFrame();
 	
@@ -9,8 +9,8 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		Main m = new Main();
-		m.start();
+		MassRename mr = new MassRename();
+		mr.start();
 	}
 
 }
