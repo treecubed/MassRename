@@ -2,7 +2,8 @@ package example;
 
 import java.io.File;
 
-import javax.swing.JFrame;
+import javax.swing.*;
+import javax.swing.border.*;
 
 import net.iharder.dnd.FileDrop;
 
@@ -16,9 +17,9 @@ public class Example {
     /** Runs a sample program that shows dropped files */
     public static void main( String[] args )
     {
-        javax.swing.JFrame frame = new javax.swing.JFrame( "FileDrop" );
-        javax.swing.border.TitledBorder dragBorder = new javax.swing.border.TitledBorder( "Drop 'em" );
-        final javax.swing.JTextArea text = new javax.swing.JTextArea();
+        JFrame frame = new javax.swing.JFrame( "FileDrop" );
+        TitledBorder dragBorder = new TitledBorder( "Drop 'em" );
+        final JTextArea text = new JTextArea();
         frame.getContentPane().add( 
             new javax.swing.JScrollPane( text ), 
             java.awt.BorderLayout.CENTER );

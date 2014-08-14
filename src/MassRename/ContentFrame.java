@@ -2,12 +2,16 @@ package MassRename;
 
 import javax.swing.*;
 
-public class MainFrame extends JFrame{
+public class ContentFrame extends JFrame{
 	
-	public MainFrame(){
+	public ContentFrame(){
 		super("MassRename");
 		
-		setSize(800, 600);
+		init(800,600);
+	}
+	
+	private void init(int w, int h){
+		setSize(w, h);
 		setLocationRelativeTo(null);
         setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 	}

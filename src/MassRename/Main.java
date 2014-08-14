@@ -1,13 +1,11 @@
 package MassRename;
 
-import javax.swing.*;
-
 public class Main {
 
-	MainFrame mf = new MainFrame();
+	ContentFrame cf = new ContentFrame();
 	
 	public void start(){
-        mf.setVisible(true);
+        cf.setVisible(true);
 	}
 	
 	public static void main(String[] args) {
