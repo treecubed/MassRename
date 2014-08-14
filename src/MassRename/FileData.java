@@ -4,6 +4,11 @@ import java.io.File;
 
 public class FileData {
 	
+	public String newName;
+	public String oldName;
+	public String newDir;
+	public String oldDir;
+	
 	public FileData(String n, String d){
 		this(n,n,d,d);
 	}
@@ -52,10 +57,5 @@ public class FileData {
 	public String getOldPath(){
 		return oldDir +File.separator +oldName;
 	}
-
-	public String newName;
-	public String oldName;
-	public String newDir;
-	public String oldDir;
 	
 }
